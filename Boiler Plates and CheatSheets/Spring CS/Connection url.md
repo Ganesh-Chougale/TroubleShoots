@@ -1,3 +1,4 @@
+<!-- Mysql Connection Driver Class -->
 ```
 spring.datasource.url=jdbc:mysql://127.0.0.1:3306/practicedb
 spring.datasource.username=ganesh
