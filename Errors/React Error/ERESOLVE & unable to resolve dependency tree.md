@@ -26,3 +26,12 @@ npm error A complete log of this run can be found in: C:\Users\RaSkull\AppData\L
 `npm install --no-audit --save @testing-library/jest-dom@^5.14.1 @testing-library/react@^13.0.0 @testing-library/user-event@^13.2.1 web-vitals@^2.1.0` failed
 ```  
 ### Solution:  
+#### Terminal:  
+```bash
+npm config set legacy-peer-deps true
+```  
+or
+#### Terminal:  
+```bash
+npm install --legacy-peer-deps
+```  
